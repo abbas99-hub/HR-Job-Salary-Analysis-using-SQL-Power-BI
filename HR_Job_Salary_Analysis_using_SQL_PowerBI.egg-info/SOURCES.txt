@@ -1,0 +1,7 @@
+README.md
+setup.py
+HR_Job_Salary_Analysis_using_SQL_PowerBI.egg-info/PKG-INFO
+HR_Job_Salary_Analysis_using_SQL_PowerBI.egg-info/SOURCES.txt
+HR_Job_Salary_Analysis_using_SQL_PowerBI.egg-info/dependency_links.txt
+HR_Job_Salary_Analysis_using_SQL_PowerBI.egg-info/requires.txt
+HR_Job_Salary_Analysis_using_SQL_PowerBI.egg-info/top_level.txt

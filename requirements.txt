@@ -1,0 +1,10 @@
+requests
+numpy 
+bs4
+pandas
+bs4
+regex
+scipy
+seaborn
+matplotlib
+-e .
