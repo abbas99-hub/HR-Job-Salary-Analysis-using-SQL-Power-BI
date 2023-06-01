@@ -1,3 +1,5 @@
+![HR-Analytics](https://github.com/abbas99-hub/HR-Job-Salary-Analysis-using-SQL-Power-BI/assets/60792939/2cd00e03-b756-484d-aa1c-26c9bab68d93)
+
 # HR Job Salary Analysis
 This project focuses on analyzing job salary data from Indeed using Python, Selenium, and SQL, and visualizing the results in Power BI. The data is scraped from Indeed job postings, pre-processed using Pandas in Python, and then loaded into a SQL database. SQL queries are used to analyze the data and generate insights, and the results are visualized in Power BI to create an interactive dashboard.
 
