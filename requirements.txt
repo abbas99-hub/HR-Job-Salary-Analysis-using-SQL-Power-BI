@@ -7,4 +7,5 @@ regex
 scipy
 seaborn
 matplotlib
+tqdm
 -e .
