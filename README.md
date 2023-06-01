@@ -31,8 +31,8 @@ The job_salary_analysis.pbix file is a Power BI project file that connects to th
 To run this project, follow these steps:
 
 * Install the necessary Python libraries: Selenium, and Pandas.
-* Execute the data_collection.ipynb script to scrape job salary data from Indeed and save it as a CSV file.
-* Run the data_preprocessing.py script to clean and transform the scraped data.
+* Execute the web_scraper.ipynb script to scrape job salary data from Indeed and save it as a CSV file.
+* Run the pre-processor.ipynb script to clean and transform the scraped data.
 * Execute the database.sql script to set up the SQL database and tables.
 * Load the pre-processed data into the SQL database using your preferred method (e.g., SQL client).
 * Run the SQL queries from sql_queries.sql to analyze the job salary data and extract insights.
