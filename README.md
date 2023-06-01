@@ -4,14 +4,14 @@ This project focuses on analyzing job salary data from Indeed using Python, Sele
 ## Project Structure
 The project is structured as follows:
 
-* data_collection.py: Python script for web scraping Indeed job postings using Selenium and storing the data in CSV format.
+* data_collection.ipynb: Python script for web scraping Indeed job postings using Selenium and storing the data in CSV format.
 * data_preprocessing.py: Python script for data pre-processing using Pandas, cleaning and transforming the scraped data for analysis.
 * database.sql: SQL script for creating the database and tables to store the pre-processed job salary data.
 * sql_queries.sql: SQL queries for analyzing the job salary data, calculating averages, aggregating data, and extracting insights.
 * job_salary_analysis.pbix: Power BI project file containing the dashboard visualizations and data connections.
 
 ## Data Collection
-To collect job salary data, we use Python and Selenium to scrape Indeed job postings. The data_collection.py script navigates to the desired job search page, extracts relevant information such as job title, salary, location, employer, and employer rating, and stores the data in a CSV file.
+To collect job salary data, we use Python and Selenium to scrape Indeed job postings. The data_collection.ipynb script navigates to the desired job search page, extracts relevant information such as job title, salary, location, employer, and employer rating, and stores the data in a CSV file.
 
 ## Data Pre-processing
 The scraped data in CSV format is pre-processed using the data_preprocessing.py script. This script uses Pandas to clean the data, handle missing values, and transform the data into a suitable format for analysis. This includes removing duplicates, converting data types, and performing any necessary data transformations.
@@ -28,8 +28,8 @@ The job_salary_analysis.pbix file is a Power BI project file that connects to th
 ## Getting Started
 To run this project, follow these steps:
 
-* Install the necessary Python libraries: Selenium, Pandas.
-* Execute the data_collection.py script to scrape job salary data from Indeed and save it as a CSV file.
+* Install the necessary Python libraries: Selenium, and Pandas.
+* Execute the data_collection.ipynb script to scrape job salary data from Indeed and save it as a CSV file.
 * Run the data_preprocessing.py script to clean and transform the scraped data.
 * Execute the database.sql script to set up the SQL database and tables.
 * Load the pre-processed data into the SQL database using your preferred method (e.g., SQL client).
